@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget e calcolo spese</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="budgetContainer">
+        <h2>Budget</h2>
+        <input type="number" id="valore" placeholder="Inserisci un budget iniziale">
+        <input type="number" id="limite" placeholder="Inserisci un limite di spesa">
+        
+        <button type="button" class="bottone" onclick="scrivi()">INIZIA</button>
+    </div>
+    <div id="speseContainer">
+        <h2>Le mie spese</h2>
+        <ul id="spese"></ul>
+        <h2 id="avviso"></h2>
+        <p id="budgetFinale"></p>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
