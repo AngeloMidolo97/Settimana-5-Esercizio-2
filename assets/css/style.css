@@ -25,6 +25,7 @@ body {
     margin-bottom: 10px;
     width: 40vw;
     text-align: center;
+    box-shadow: 0 0 20px #a9a5a5;
 }
 
 input {
@@ -57,6 +58,9 @@ input:focus {
     border-radius: 20px;
     width: 40vw;
     text-align: center;
+    overflow: scroll;
+    height: 60vh;
+    box-shadow: 0 0 20px #a9a5a5;;
 }
 
 ul {

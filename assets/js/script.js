@@ -3,7 +3,7 @@ function scrivi() {
     let spese = 0;
     let limite = document.getElementById('limite').value;
     while(budget > 0) {
-        let numeroRandom = Math.floor(Math.random() * 100);
+        let numeroRandom = Math.floor(Math.random() * limite);
         if (numeroRandom <= budget) {
             spese += 1;
             budget -= numeroRandom;
